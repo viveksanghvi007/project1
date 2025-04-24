@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+  }
+  
+  .slider {
+    width: 90%;
+    max-width: 900px;
+    height: 300px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    width: 300%; /* 100% * number of slides */
+    animation: slide 9s infinite;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  

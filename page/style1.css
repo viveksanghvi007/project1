@@ -1,0 +1,10 @@
+.map-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.text-warning{
+    width: 100%;
+    align-items: center;
+}
